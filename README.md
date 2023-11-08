@@ -1,4 +1,4 @@
-### Background
+## Background
 
 Conway's Game of Life is a fascinating cellular automaton devised by the mathematician John Conway. It operates on a grid of cells, where each cell can be in one of two states: alive or dead. The cells evolve over discrete time steps according to the following rules:
 
@@ -7,7 +7,7 @@ A living cell with two or three living neighbors survives.
 A living cell with more than three living neighbors dies (overpopulation).
 A dead cell with exactly three living neighbors becomes alive (reproduction).
 
-### Installation
+## Installation
 
 To run the cellular animation, make sure you have the following Python packages installed:
 
@@ -16,7 +16,7 @@ To run the cellular animation, make sure you have the following Python packages 
 pip install numpy pygame argparse matplotlib
 ```
 
-### Usage
+## Usage
 
 Clone the repository and run the animation script:
 
