@@ -1,15 +1,28 @@
-# cellular-animation
+Conway's Game of Life is a fascinating cellular automaton devised by the mathematician John Conway. It operates on a grid of cells, where each cell can be in one of two states: alive or dead. The cells evolve over discrete time steps according to the following rules:
 
-##### pip install numpy
-##### pip install pygame
-##### pip install argparse
-##### pip install -U matplotlib
+A living cell with fewer than two living neighbors dies (underpopulation).
+A living cell with two or three living neighbors survives.
+A living cell with more than three living neighbors dies (overpopulation).
+A dead cell with exactly three living neighbors becomes alive (reproduction).
+Installation
+
+To run the cellular animation, make sure you have the following Python packages installed:
+
+
+```bash
+pip install numpy pygame argparse matplotlib
+```
+
+Usage
+
+Clone the repository and run the animation script:
+
+```bash
+python cellular_animation.py
+```
+
+Copy code
+
+This script uses numpy, pygame, and matplotlib to create an interactive visualization of Conway's Game of Life. Enjoy exploring the mesmerizing patterns that emerge from these simple rules!
 
 ![output](https://github.com/rohinimohan14/cellular-animation/blob/main/cellular.png)
-
-#### Conway's Game of Life is a cellular automaton devised by the mathematician John Conway. It consists of a grid of cells, each of which can be in one of two states: alive or dead. The cells evolve over discrete time steps according to certain rules:
-
-## A living cell with fewer than two living neighbors dies (underpopulation).
-## A living cell with two or three living neighbors survives.
-## A living cell with more than three living neighbors dies (overpopulation).
-## A dead cell with exactly three living neighbors becomes alive (reproduction).
