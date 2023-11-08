@@ -25,7 +25,8 @@ python cellular_animation.py
 ```
 
 
-This script uses numpy, pygame, and matplotlib to create an interactive visualization of Conway's Game of Life. Enjoy exploring the mesmerizing patterns that emerge from these simple rules!
+This repo consists of two scripts/implementations
+One uses numpy and matplotlib and other uses Pygame to create an interactive visualization of Conway's Game of Life. Enjoy exploring the mesmerizing patterns that emerge from these simple rules!
 
 ![output](https://github.com/rohinimohan14/cellular-animation/blob/main/cellular.png)
 
