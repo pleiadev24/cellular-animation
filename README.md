@@ -24,6 +24,8 @@ Clone the repository and run the animation script:
 python cellular_animation.py
 ```
 
+Clone the repository and run the pygame script:
+
 ```bash
 python cellula-pygame.py
 ```
