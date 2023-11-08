@@ -24,6 +24,9 @@ Clone the repository and run the animation script:
 python cellular_animation.py
 ```
 
+```bash
+python cellula-pygame.py
+```
 
 This repo consists of two scripts/implementations
 One uses numpy and matplotlib and other uses Pygame to create an interactive visualization of Conway's Game of Life. Enjoy exploring the mesmerizing patterns that emerge from these simple rules!
